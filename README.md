@@ -1,47 +1,36 @@
-# Projeto-Microsoft-DIO
- Armazenando dados de um E-Commerce na Cloud
 # Projeto Microsoft Application Platform 🚀
 
 ## Descrição
-Este projeto faz parte do desafio proposto pela DIO. O objetivo é aplicar conceitos aprendidos durante o curso, replicando ou aprimorando o projeto prático fornecido.
+Este projeto foi desenvolvido como parte do curso DIO. Ele integra um backend simples feito com Flask e um frontend utilizando React.
 
-## Ferramentas Utilizadas
-- **Linguagens:** Python, JavaScript
-- **Plataforma:** Microsoft Application Platform
-- **Bibliotecas:** React.js, Flask
+## Estrutura
+- **Backend:** Gerenciado com Flask para simular uma API.
+- **Frontend:** Desenvolvido com React para criar uma interface moderna.
 
-## Estrutura do Projeto
-- `src/`: Código-fonte principal do projeto.
-- `docs/`: Documentação e screenshots do processo.
+## Como executar
+1. **Backend**:
+   - Navegue até a pasta `backend/`.
+   - Execute `python app.py` no terminal.
+   - Acesse `http://127.0.0.1:5000/` no navegador.
 
-## Prints do Processo
-![Screenshot](url-do-seu-print-aqui)
+2. **Frontend**:
+   - Navegue até a pasta `frontend/`.
+   - Execute `npm install` para instalar dependências.
+   - Execute `npm start` para iniciar o frontend.
+   - Acesse `http://localhost:3000/` no navegador.
+
+## Prints
+Adicione aqui screenshots do seu projeto funcionando.
 
 ## Aprendizados
-- Compreensão da plataforma Microsoft Application.
-- Melhoria nas habilidades de integração entre frontend e backend.
-- Criação de fluxos otimizados.
-
-## Possíveis Melhorias
-- Implementação de testes automatizados.
-- Atualizar a interface gráfica para algo mais moderno.
-- Expandir funcionalidade para diferentes casos de uso.
+- Como conectar backend e frontend de maneira eficiente.
+- Uso prático de Flask e React para projetos dinâmicos.
 
 ---
 
-### Código Base (Exemplo)
+### Próximos passos
+1. Faça o upload da estrutura para o GitHub, mantendo as pastas organizadas.
+2. Adicione prints no arquivo `README.md`.
+3. Teste ambos os sistemas antes de compartilhar na plataforma DIO.
 
-Aqui está uma estrutura simples de como você pode organizar seu projeto:
-
-**Backend (Flask)**:
-```python
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return "Hello, Microsoft Application Platform!"
-
-if __name__ == '__main__':
-    app.run(debug=True)
+Se precisar de ajustes ou mais explicações, é só chamar! 🚀✨
